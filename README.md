@@ -70,14 +70,14 @@ Evidence: The potential supporting evidence or context for the claim.
 
 ## Attribution
 #### Base Model:
-This project uses the RoBERTa model from Hugging Face's Transformers library.
+This project uses the [RoBERTa model](https://huggingface.co/docs/transformers/en/model_doc/roberta) from Hugging Face's Transformers library.
 
 #### Libraries and Frameworks:
 
-1. Transformers
-2. PyTorch
-3. pandas
-4. tqdm
+1. [Transformers](https://huggingface.co/docs/transformers/en/index)
+2. [PyTorch](https://pytorch.org/)
+3. [pandas](https://pandas.pydata.org/)
+4. [tqdm](https://pypi.org/project/tqdm/)
 
 #### Data Sources
 The only data source used in the creation of this model are the training and dev datasets provided in the coursework.
