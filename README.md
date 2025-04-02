@@ -34,7 +34,7 @@ Running the demo code install requisite libraries, however they can also be inst
 pip install transformers pandas torch tqdm
 ```
 ## Usage
-#### Download the files
+#### 1. Download the files
 Download the Jupyter Notebook and model files from the following Google Drive folder:
 [Google Drive Link](https://drive.google.com/drive/folders/1KFMmq3c8HZteHCkANV7PFT70h0VOgDEk?usp=drive_link)
 
@@ -45,7 +45,7 @@ Inside the subdirectory named "Model" are the files required for the trained mod
 2. config.json
 
 Download these 2 then update the paths as below.
-#### Update Paths
+#### 2. Update Paths
 In the notebook, modify the following path constants to point to the correct directories for the model and test data:
 
 ```python
@@ -54,7 +54,7 @@ TEST_DATA_PATH = ...
 ```
 
 The model path should be set to the folder containing the 2 files mentioned earlier, ```model.safetensors```and ```config.json```, and the test data path should just be set to the path to the dev dataset, wherever that is on your machine.
-#### Run the Notebook
+#### 3. Run the Notebook
 
 Open the notebook (.ipynb) in a Jupyter environment such as Jupyter Notebook, JupyterLab, or Google Colab.
 
@@ -62,11 +62,11 @@ Then run the code cell under the header "Demo Code" which will load the model an
 
 
 #### Test Data:
-The test CSV file (dev.csv) should include at least two columns:
+The test CSV file (dev.csv) should include the following two columns:
 
 Claim: The claim or statement to be evaluated.
 
-Evidence: The supporting evidence or context for the claim.
+Evidence: The potential supporting evidence or context for the claim.
 
 ## Attribution
 #### Base Model:
