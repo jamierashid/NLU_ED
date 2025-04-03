@@ -61,12 +61,15 @@ Open the notebook (.ipynb) in a Jupyter environment such as Jupyter Notebook, Ju
 Then run the code cell under the header "Demo Code" which will load the model and test data, perform inference, and then save the predictions to a file named test_predictions.csv.
 
 
-#### Test Data:
+#### Notes:
 The test CSV file (dev.csv) should include the following two columns:
 
 Claim: The claim or statement to be evaluated.
 
 Evidence: The potential supporting evidence or context for the claim.
+
+
+There is a cell at the bottom of the notebook that combines the test and dev datasets, trains a model on them - then uses it to make predictions.
 
 ## Attribution
 #### Base Model:
